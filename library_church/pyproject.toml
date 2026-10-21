@@ -1,0 +1,11 @@
+[project]
+name = "library-church"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.156.5",
+    "python-dotenv>=1.2.4",
+    "supabase>=2.33.0",
+]
